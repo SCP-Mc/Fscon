@@ -1,0 +1,104 @@
+.header {
+    padding: 1px;
+    text-align: center; 
+    background: transparent; 
+    color:gray; 
+  }
+body {
+  background: url(/Rambles/Background.png) no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:100% 100%;
+  
+    }
+*{
+  box-sizing: border-box;
+  }
+
+
+.column1{
+  position: absolute;
+  max-width: 20%;
+  bottom: 15%;
+  left: 20%;
+  opacity: 60%;
+
+}
+
+.column2{
+  position: absolute;
+  bottom: 15%;
+  left: 60%;
+  max-width: 20%;
+  opacity: 60%;
+
+}
+img { display: block; }
+
+.nav{
+  position: absolute;
+  left: 95%;
+  bottom: 30%;
+
+}
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+.logo{
+  -webkit-animation: floatBubble 3s   normal ease-out;
+  animation: floatBubble 3s   normal ease-out;
+  opacity: 60%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+ 
+}
+@-webkit-keyframes floatBubble {
+  0% {
+      text-outline: 100px;
+  }
+  100% {
+      top: 1px;
+  }
+}
+@keyframes floatBubble {
+  0% {
+      top:100px;
+  }
+  100% {
+      top: 2%;
+  }
+}
